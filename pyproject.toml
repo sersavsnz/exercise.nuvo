@@ -1,0 +1,24 @@
+[project]
+name = "exercise.nuvo"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Sergei Savin",email = "spsavin@gmail.com"},
+]
+dependencies = [
+    "langchain>=0.1.4",
+    "langchain-openai>=0.0.5",
+    "python-dotenv>=1.0.1",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+distribution = false
+[tool.pdm.dev-dependencies]
+dev = [
+    "ipykernel>=6.29.0",
+    "ipywidgets>=8.1.1",
+]
+
