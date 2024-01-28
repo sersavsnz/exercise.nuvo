@@ -1,6 +1,6 @@
 import streamlit as st
 
-from text2code import Text2Code
+from src.text2code import Text2Code
 
 # from getpass import getpass
 # OPENAI_API_KEY = getpass()
